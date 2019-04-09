@@ -1,7 +1,7 @@
 import cv2
 import os
 import numpy as np	
-subject_names = ["", "Tanya", "Naveen","Vaibhav", "Shubham","Sagar"]	
+subject_names = ["", "Naveen","Others"]	
 #there is no label 0 in our training data so subject name for index/label 0 is empty
 
 def detect_face_from_image(img):
